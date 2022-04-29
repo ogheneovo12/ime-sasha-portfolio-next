@@ -3,16 +3,17 @@ import {
   Button,
   Flex,
   Image,
-  Text,
-  useMediaQuery,
+  Text
 } from "@chakra-ui/react";
 import Socials from "components/Socials";
-import React from "react";
 import { useTranslation } from 'next-i18next';
+import React from "react";
+import { useSwiper } from "swiper/react";
 
 
 function Welcome(props) {
   const { t } = useTranslation("translations");
+  const swiper = useSwiper();
 
   return (
     <Box overflow={"hidden"}>
@@ -83,7 +84,7 @@ function Welcome(props) {
                 border: "0.837838px solid rgba(255, 255, 255, 0.5)",
                 color: "#fff",
               }}
-              onClick={() => props?.goToStep("manager")}
+              onClick={() => swiper?.slideTo(1, 1000)}
             >
               {t("tour")}
             </Button>
@@ -92,7 +93,7 @@ function Welcome(props) {
               ml={{base:"0px",  "2sm": "15px"}}
               _hover={{ background: "primary", color: "secondary" }}
               variant={"ghost"}
-              onClick={() => props?.goToStep("contacts")}
+              onClick={() => swiper?.slideTo(4, 1000)}
             >
               {t("intouch")}
             </Button>
