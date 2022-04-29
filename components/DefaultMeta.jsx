@@ -10,6 +10,7 @@ function DefaultMeta(props) {
       image="/img/imesasha.png"
       title={t("meta.title")}
       description={t("meta.description")}
+      keywords={t("meta.keywords")}
       metas={[
         {
           property: "og:url",

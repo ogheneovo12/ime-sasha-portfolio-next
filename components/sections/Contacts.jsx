@@ -31,7 +31,7 @@ function Contacts(props) {
     },
     {
       icon: <FaLinkedinIn />,
-      name: "linkedIn",
+      name: "linkedin",
       bg: "#2867B2",
     },
     {

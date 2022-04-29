@@ -19,7 +19,7 @@ const socials = [
     icon: <FaInstagram />,
   },
   {
-    name: "linkedIn",
+    name: "linkedin",
     icon: <FaLinkedinIn />,
   },
   {

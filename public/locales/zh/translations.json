@@ -18,7 +18,7 @@
         "facebook": "对我的国际观众来说都很重要. Let's Meta!",
         "twitter": "关于我的加密项目等等。我们走吧！",
         "telegram": "詳情blockchain、сrypto、defi、gamefi、nft、metaverses. 我們走吧",
-        "linkedIn": "帮助人们永久找到最好的爱好工作。让我们连接",
+        "linkedin": "帮助人们永久找到最好的爱好工作。让我们连接",
         "instagram": "乐趣，旅游，哲学，运动，我的爱好等等。让我们飞!",
         "ukr": "对我的祖国来说一切都很重要。咱们见面吧!"
     },
@@ -31,12 +31,12 @@
     },
     "meta": {
         "title": "Sasha Borisov | 企业家和投资者",
-        "description": "sasha borisov 区块链 加密投资者 企业家 defi metaversee ntf gamefi 软件开发",
+        "description": "这是关于我的项目、工作和爱好的网站。",
         "image": "",
         "og": {
             "type": "",
             "site_name": "",
-            "description": "sasha borisov 区块链 加密投资者 企业家 defi metaversee ntf gamefi 软件开发",
+            "description": "这是关于我的项目、工作和爱好的网站。",
             "url": "",
             "title": "Sasha Borisov | 企业家和投资者"
         },
@@ -44,10 +44,10 @@
             "card": "",
             "site": "",
             "title": "Sasha Borisov | 企业家和投资者",
-            "description": "sasha borisov 区块链 加密投资者 企业家 defi metaversee ntf gamefi 软件开发",
+            "description": "这是关于我的项目、工作和爱好的网站。",
             "image": "",
             "image_src": ""
         },
-        "name": ""
+        "keywords": "sasha borisov 区块链 加密投资者 企业家 defi metaversee ntf gamefi 软件开发"
     }
 }

@@ -18,7 +18,7 @@
         "facebook": "All important for my international audience, Let’s Meta!",
         "twitter": "All about my crypto projects and more. Let's go!",
         "telegram": "All about blockchain, сrypto, defi, gamefi, nft and metaverses. Lets go!",
-        "linkedIn": "Helping people to find best hobbyjob permanently. Let's Connect",
+        "linkedin": "Helping people to find best hobbyjob permanently. Let's Connect",
         "instagram": "Fun, traveling, philosophy, sport, my hobbies and so on. Let's fly!",
         "ukr": "All important for my native country. Let's meet!"
     },
@@ -31,12 +31,12 @@
     },
     "meta": {
         "title": "Sasha Borisov | Entrepreneur & Investor",
-        "description": "sasha borisov blockchain crypto investor entrepreneur defi metaversee ntf gamefi software development",
+        "description": "This is site about my projects, work and hobbies",
         "image": "",
         "og": {
             "type": "",
             "site_name": "",
-            "description": "sasha borisov blockchain crypto investor entrepreneur defi metaversee ntf gamefi software development",
+            "description": "This is site about my projects, work and hobbies",
             "url": "",
             "title": "Sasha Borisov | Entrepreneur & Investor"
         },
@@ -44,10 +44,10 @@
             "card": "",
             "site": "",
             "title": "Sasha Borisov | Entrepreneur & Investor",
-            "description": "sasha borisov blockchain crypto investor entrepreneur defi metaversee ntf gamefi software development",
+            "description": "This is site about my projects, work and hobbies",
             "image": "",
             "image_src": ""
         },
-        "name": ""
+        "keywords": "sasha borisov blockchain crypto investor entrepreneur defi metaversee ntf gamefi software development"
     }
 }

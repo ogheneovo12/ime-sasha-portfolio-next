@@ -38,7 +38,7 @@ function Welcome(props) {
           <Text fontSize={["16px", "16px", "initial"]} mt="20px" as="h3">
             {t("greetings")} 👋
           </Text>
-          <Text color="#fff" mt={{ base: "16px", fld: "20px" }} as="h1">
+          <Text color="#fff" mt={{ base: "10px", fld: "20px" }} as="h1">
             {t("iam")}{" "}
             <Text as="span" color="primary">
               Sasha
@@ -51,16 +51,17 @@ function Welcome(props) {
             mt={"14px"}
           >
             <Image
+               height={"200px"}
               mx={{ base: "auto", fld: "0" }}
               src={"/img/imesasha.png"}
-              alt="Ime sitting on a chair"
+              alt="Ime sasha sitting on a chair"
             />
           </Box>
           <Text
             textUnderlineOffset={"9px"}
             color="rgba(255, 255, 255, 0.5)"
             textDecoration={"underline"}
-            mt="20px"
+            mt={{base:"14px" , fld:"24px"}}
             as="h2"
           >
             <Text textTransform={"capitalize"} color="#fff" as="span">
