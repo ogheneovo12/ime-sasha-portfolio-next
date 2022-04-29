@@ -1,13 +1,12 @@
-import React from "react";
-import StepWizard from "react-step-wizard";
+import { Button, Flex } from "@chakra-ui/react";
 import Contacts from "components/sections/Contacts";
 import CTO from "components/sections/CTO";
 import Founder from "components/sections/Founder";
 import Manager from "components/sections/Manager";
 import Welcome from "components/sections/Welcome";
-import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
+import React from "react";
 import "swiper/css";
-import { Button, Flex } from "@chakra-ui/react";
+import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 
 export const steps = [
   {
