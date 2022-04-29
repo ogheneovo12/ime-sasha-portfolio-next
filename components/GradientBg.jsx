@@ -8,7 +8,7 @@ const GradientBg = ({ children, ...rest }) => (
     width={"100%"}
     minH={"100vh"}
     px={{ base: "15px", md: "94px" }}
-    py={{ base: "25px", md: "60px" }}
+    py={"10px" }
     {...rest}
     bgGradient={`linear(145deg, bgprimary 40%, bgdark 0%)`}
     bgPos={"center center, left bottom, right bottom"}
@@ -70,7 +70,7 @@ export const GradientBgContainer = ({ children, ...rest }) => (
     position={"relative"}
     boxShadow={"0px 4px 100px rgba(0, 0, 0, 0.5)"}
     borderRadius={"20px"}
-    minH={"654px"}
+    minH={"400px"}
     bgColor="secondary"
     {...rest}
     maxW={"container.xl"}

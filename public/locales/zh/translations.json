@@ -1,25 +1,53 @@
 {
-  "iam": "",
-  "welcome": "欢迎",
-  "greetings": "",
-  "summary": "",
-  "tour": "",
-  "intouch": "",
-  "joinWaves": "",
-  "join": "",
-  "managerInfo": "",
-  "ctoInfo": {
-    "p1": "",
-    "p2": ""
-  },
-  "socials": {
-    "main": "",
-    "sub": "",
-    "facebook": "",
-    "twitter": "",
-    "telegram": "",
-    "linkedIn": "",
-    "instagram": "",
-    "ukr": ""
-  }
+    "iam": "我是",
+    "welcome": "欢迎",
+    "greetings": "向大家问好",
+    "summary": "我从事区块链、金融科技、加密货币、艺术领域的创新和原创项目，我很自豪能够向您介绍它们。",
+    "tour": "我的项目之旅",
+    "intouch": "让我们取得联系",
+    "joinWaves": "加入社区",
+    "join": "加入",
+    "managerInfo": "我们邀请创始人、开发人员、专家到一个大型社区在 Waves 区块链上创建项目 - 这是世界上最高效的区块链之一。从想法到项目再到资金，这一切都聚集在不断发展的 Waves Sump 社区周围。加入制作自己的独角兽或参与未来最有趣的项目和技术",
+    "ctoInfo": {
+        "p1": "Waves Tech 是一家为 Waves 生态系统开发基础设施产品的公司。",
+        "p2": "在创建产品和推广产品方面拥有超过 15 年的经验，我始终忠于用户和他对我创建的服务的便利性和简单性的看法"
+    },
+    "socials": {
+        "main": "让我们保持联系",
+        "sub": "我很高兴找到与我有共同爱好和工作兴趣的朋友、同事和伙伴。",
+        "facebook": "对我的国际观众来说都很重要. Let's Meta!",
+        "twitter": "关于我的加密项目等等。我们走吧！",
+        "telegram": "詳情blockchain、сrypto、defi、gamefi、nft、metaverses. 我們走吧",
+        "linkedIn": "帮助人们永久找到最好的爱好工作。让我们连接",
+        "instagram": "乐趣，旅游，哲学，运动，我的爱好等等。让我们飞!",
+        "ukr": "对我的祖国来说一切都很重要。咱们见面吧!"
+    },
+    "socials_url": {
+        "instagram": "",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "linkedin": "https:\/\/www.linkedin.com\/in\/imetasasha\/"
+    },
+    "meta": {
+        "title": "Sasha Borisov | 企业家和投资者",
+        "description": "sasha borisov 区块链 加密投资者 企业家 defi metaversee ntf gamefi 软件开发",
+        "image": "",
+        "og": {
+            "type": "",
+            "site_name": "",
+            "description": "sasha borisov 区块链 加密投资者 企业家 defi metaversee ntf gamefi 软件开发",
+            "url": "",
+            "title": "Sasha Borisov | 企业家和投资者"
+        },
+        "twitter": {
+            "card": "",
+            "site": "",
+            "title": "Sasha Borisov | 企业家和投资者",
+            "description": "sasha borisov 区块链 加密投资者 企业家 defi metaversee ntf gamefi 软件开发",
+            "image": "",
+            "image_src": ""
+        },
+        "name": ""
+    }
 }

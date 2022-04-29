@@ -1,7 +1,7 @@
 import { Box, Button, Divider, Flex, IconButton, Text } from "@chakra-ui/react";
 import Ukr from "components/Ukr";
 import React from "react";
-import { useTranslation } from 'next-i18next';
+import { useTranslation } from "next-i18next";
 import {
   FaFacebook,
   FaInstagram,
@@ -10,52 +10,49 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 
-
 function Contacts(props) {
   const { t } = useTranslation("translations");
 
   const socials = [
     {
-      text: t("socials.facebook"),
       icon: <FaFacebook />,
-      link: "/#",
+      name: "facebook",
       bg: "#1877F2",
     },
     {
-      text: t("socials.twitter"),
       icon: <FaTwitter />,
-      link: "#",
       bg: "#1DA1F2",
+      name: "twitter",
     },
     {
-      text: t("socials.telegram"),
       icon: <FaTelegramPlane />,
-      link: "#",
+      name: "telegram",
       bg: "#0088CC",
     },
     {
-      text: t("socials.linkedIn"),
       icon: <FaLinkedinIn />,
-      link: "#",
+      name: "linkedIn",
       bg: "#2867B2",
     },
     {
-      text: t("socials.instagram"),
       icon: <FaInstagram />,
-      link: "#",
+      name: "instagram",
       bg: "#F00073",
     },
     {
-      text: t("socials.ukr"),
       icon: <Ukr />,
-      link: "#",
+      name: "ukr",
       bg: "#0077FF",
     },
   ];
 
   return (
     <Box mt={{ base: "30px", fld: "0px" }}>
-      <Text fontSize={{base:"26px", md:"38px"}} textAlign={"center"} as="h1">
+      <Text
+        fontSize={{ base: "26px", md: "38px" }}
+        textAlign={"center"}
+        as="h1"
+      >
         {t("socials.main")}
       </Text>
       <Text
@@ -67,9 +64,15 @@ function Contacts(props) {
       >
         {t("socials.sub")}
       </Text>
-      <Flex mt="20px" flexWrap={"wrap"} justifyContent="space-evenly">
+      <Flex mt="10px" flexWrap={"wrap"} justifyContent="space-evenly">
         {socials?.map((item, i) => (
-          <SocialBox key={`${item?.text}${i}`} {...item} t={t} />
+          <SocialBox
+            key={`${item?.text}${i}`}
+            {...item}
+            text={t(`socials.${item.name}`)}
+            link={t(`socials_url.${item.name}`)}
+            btnText={t("join")}
+          />
         ))}
       </Flex>
       <Divider opacity={"0.06"} />
@@ -77,14 +80,14 @@ function Contacts(props) {
   );
 }
 
-const SocialBox = ({ text, icon, link, bg, t }) => (
+const SocialBox = ({ text, icon, link, bg, btnText }) => (
   <Flex
     flexFlow={"column"}
     alignItems="center"
     textAlign={"center"}
-    maxW={{base:"35%", fld:"254px"}}
-    mx={{base:"13px", md:"20px", fld:"40px"}}
-    my="22px"
+    maxW={{ base: "35%", fld: "254px" }}
+    mx={{ base: "13px", md: "20px", fld: "40px" }}
+    my="10px"
   >
     <IconButton
       fontSize={"20px"}
@@ -100,7 +103,7 @@ const SocialBox = ({ text, icon, link, bg, t }) => (
       {text}
     </Text>
     <Button width="84.85px" h="28px" variant={"ghost"}>
-      {t("join")}
+      {btnText}
     </Button>
   </Flex>
 );

@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "update-locales":"./bin/update-locales.sh"
+    "update-locales": "./bin/update-locales.sh"
   },
   "dependencies": {
     "@chakra-ui/react": "^1.8.8",
@@ -19,7 +19,8 @@
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-icons": "^4.3.1",
-    "react-step-wizard": "^5.3.11"
+    "react-step-wizard": "^5.3.11",
+    "swiper": "^8.1.4"
   },
   "devDependencies": {
     "eslint": "8.14.0",

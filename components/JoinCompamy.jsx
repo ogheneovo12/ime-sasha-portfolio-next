@@ -21,7 +21,7 @@ const socials = [
 function JoinCompamy(props) {
   const { t } = useTranslation();
   return (
-    <Box px="20px" mt="120px">
+    <Box px="20px" mt="70px">
       <Text lineHeight={"21.11px"} fontWeight={"bold"} fontSize={"18px"}>
         {t("joinWaves")}
       </Text>

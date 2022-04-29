@@ -8,12 +8,12 @@ function SectionLayout({ children, role, companyName, companyType }) {
 
   return (
     <Box
-      py="20px"
+      pt="20px"
       justifyContent={"space-between"}
       minH={"300px"}
       flexFlow={"column"}
       display={"flex"}
-      px={{ base: "0px", md: "64px" }}
+      px={{ base: "0px", md: "20px" }}
     >
       <Box
         position={"relative"}

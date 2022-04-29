@@ -14,7 +14,7 @@ function Manager(props) {
       companyName={"WAVES CAMP"}
       companyType={" INCUBATOR"}
     >
-      <Text color="#FFFFFF" my="22px">
+      <Text color="#FFFFFF" my="12px">
         {t("managerInfo")}
       </Text>
     </SectionLayout>

@@ -1,25 +1,53 @@
 {
-  "iam": "I am",
-  "welcome": "Welcome",
-  "greetings": "GREETINGS TO YOU ALL",
-  "summary": "I Work on innovative and original projects in the fields of Blockchain, Fintech, Cryptocurrencies, Art, and I am proud to be able to tell you about them.",
-  "tour": "My Projects Tour",
-  "intouch": "Lets Get in Touch",
-  "joinWaves": "Join Waves Camp Community",
-  "join": "Join",
-  "managerInfo": "We invite founders, developers, experts to a large community to create projects on the Waves blockchain - one of the most productive in the world. From ideas to projects to funding, it's all gathered around the growing community of Waves Sump. Join to make your own unicorn or participate in the most interesting projects and technologies of the future",
-  "ctoInfo": {
-    "p1": "Wave Tech is a company that develops infrastructure products for the Waves ecosystem.",
-    "p2": "Having more than 15 years of experience in creating products and promoting them, I always remain loyal to the users and his opinion abbout the convenience and simplicity of the services I create"
-  },
-  "socials": {
-    "main": "Let's Keep in touch",
-    "sub": " I AM VERY GLAD TO FIND FRIENDS AND COLLEGUES WHO SHARE MY PASSIONS ANDMY WORK.",
-    "facebook": "All important for my international audience, Let's Meta",
-    "twitter": "All about my virtial side. Blockchain and Crypto.",
-    "telegram": "All about my virtial side. Blockchain and Crypto.",
-    "linkedIn": "Helping people to find best hobbyjob permanently. Let's Connect",
-    "instagram": "Fun, traveling, philosophy, sport, my hobbies and so on. Let's fly",
-    "ukr": "All important for my native country. Let's meet"
-  }
+    "iam": "I am",
+    "welcome": "Welcome",
+    "greetings": "GREETINGS TO ALL",
+    "summary": "I work on innovative and original projects in the fields of Blockchain, Fintech, Cryptocurrencies, Art, and I am proud to be able to tell you about them.",
+    "tour": "My projects tour",
+    "intouch": "Let's get in touch",
+    "joinWaves": "Join community",
+    "join": "Join",
+    "managerInfo": "We invite founders, developers, experts to a large community to create projects on the Waves blockchain - one of the most productive in the world. From ideas to projects to funding, it's all gathered around the growing community of Waves Sump. Join to make your own unicorn or participate in the most interesting projects and technologies of the future",
+    "ctoInfo": {
+        "p1": "Waves Tech is a company that develops infrastructure products for the Waves ecosystem.",
+        "p2": "Having more than 15 years of experience in creating products and promoting them, I always remain loyal to the users and his opinion abbout the convenience and simplicity of the services I create"
+    },
+    "socials": {
+        "main": "Let's keep in touch",
+        "sub": "I am very glad to find friends, colleagues and buddies who share my passions and my work interests.",
+        "facebook": "All important for my international audience, Let’s Meta!",
+        "twitter": "All about my crypto projects and more. Let's go!",
+        "telegram": "All about blockchain, сrypto, defi, gamefi, nft and metaverses. Lets go!",
+        "linkedIn": "Helping people to find best hobbyjob permanently. Let's Connect",
+        "instagram": "Fun, traveling, philosophy, sport, my hobbies and so on. Let's fly!",
+        "ukr": "All important for my native country. Let's meet!"
+    },
+    "socials_url": {
+        "instagram": "",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "linkedin": "https:\/\/www.linkedin.com\/in\/imetasasha\/"
+    },
+    "meta": {
+        "title": "Sasha Borisov | Entrepreneur & Investor",
+        "description": "sasha borisov blockchain crypto investor entrepreneur defi metaversee ntf gamefi software development",
+        "image": "",
+        "og": {
+            "type": "",
+            "site_name": "",
+            "description": "sasha borisov blockchain crypto investor entrepreneur defi metaversee ntf gamefi software development",
+            "url": "",
+            "title": "Sasha Borisov | Entrepreneur & Investor"
+        },
+        "twitter": {
+            "card": "",
+            "site": "",
+            "title": "Sasha Borisov | Entrepreneur & Investor",
+            "description": "sasha borisov blockchain crypto investor entrepreneur defi metaversee ntf gamefi software development",
+            "image": "",
+            "image_src": ""
+        },
+        "name": ""
+    }
 }

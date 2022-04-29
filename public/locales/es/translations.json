@@ -1,26 +1,53 @@
 {
-    "iam": "",
-    "welcome": "bienvenida",
-    "greetings": "",
-    "summary": "",
-    "tour": "",
-    "intouch": "",
-    "joinWaves": "",
-    "join": "",
-    "managerInfo": "",
+    "iam": "Mi nombre es",
+    "welcome": "Bienvenido",
+    "greetings": "SALUDOS A TODOS",
+    "summary": "Trabajo en proyectos innovadores y originales en los campos de Blockchain, Fintech, Criptomonedas, Arte, y estoy orgulloso de poder contarte sobre ellos.",
+    "tour": "Mi gira de proyectos",
+    "intouch": "Mantengámonos en contacto",
+    "joinWaves": "Únase a la comunidad",
+    "join": "Entrar",
+    "managerInfo": "Invitamos a fundadores, desarrolladores, expertos a una gran comunidad para crear proyectos en la cadena de bloques Waves, una de las más productivas del mundo. Desde ideas hasta proyectos y financiación, todo se reúne en torno a la creciente comunidad de Waves Sump. Únete para hacer tu propio unicornio o participar en los proyectos y tecnologías más interesantes del futuro",
     "ctoInfo": {
-      "p1": "",
-      "p2": ""
+        "p1": "Waves Tech es una empresa que desarrolla productos de infraestructura para el ecosistema Waves.",
+        "p2": "Con más de 15 años de experiencia en la creación y promoción de productos, siempre me mantengo fiel a los usuarios y su opinión sobre la conveniencia y simplicidad de los servicios que creo."
     },
     "socials": {
-      "main": "",
-      "sub": "",
-      "facebook": "",
-      "twitter": "",
-      "telegram": "",
-      "linkedIn": "",
-      "instagram": "",
-      "ukr": ""
+        "main": "Mantengámonos en contacto",
+        "sub": "Estoy muy contento de encontrar amigos, colegas y amigos que comparten mis pasiones y mis intereses laborales.",
+        "facebook": "Todo importante para mi audiencia internacional, Let's Meta!",
+        "twitter": "Todo sobre mis proyectos criptográficos y más. ¡Vamos!",
+        "telegram": "Todo sobre blockchain, сrypto, defi, gamefi, nft y metaversos. ¡Vamos!",
+        "linkedIn": "Ayudar a las personas a encontrar el mejor hobbyjob de forma permanente. vamos a conectar",
+        "instagram": "Diversión, viajes, filosofía, deporte, mis aficiones, etc. Volemos",
+        "ukr": "Todo importante para mi país natal. Vamos a quedar!"
+    },
+    "socials_url": {
+        "instagram": "",
+        "facebook": "",
+        "twitter": "",
+        "telegram": "",
+        "linkedin": "https:\/\/www.linkedin.com\/in\/imetasasha\/"
+    },
+    "meta": {
+        "title": "Sasha Borisov | Emprendedor & Inversionista",
+        "description": "sasha borisov blockchain crypto inversor empresario defi metaversee ntf gamefi desarrollo de software",
+        "image": "",
+        "og": {
+            "type": "",
+            "site_name": "",
+            "description": "sasha borisov blockchain crypto inversor empresario defi metaversee ntf gamefi desarrollo de software",
+            "url": "",
+            "title": "Sasha Borisov | Emprendedor & Inversionista"
+        },
+        "twitter": {
+            "card": "",
+            "site": "",
+            "title": "Sasha Borisov | Emprendedor & Inversionista",
+            "description": "sasha borisov blockchain crypto inversor empresario defi metaversee ntf gamefi desarrollo de software",
+            "image": "",
+            "image_src": ""
+        },
+        "name": ""
     }
-  }
-  
+}

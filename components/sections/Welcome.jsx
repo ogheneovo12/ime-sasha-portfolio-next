@@ -15,11 +15,11 @@ function Welcome(props) {
   const { t } = useTranslation("translations");
 
   return (
-    <Box>
+    <Box overflow={"hidden"}>
       <Socials containerProps={{ display: { base: "none", fld: "flex" } }} />
       <Flex
         flexFlow={{ base: "column", fld: "row" }}
-        mt={{ base: "0px", md: "77px" }}
+        mt={{ base: "0px", md: "20px" }}
       >
         <Box
           display={{ base: "none", fld: "block" }}
@@ -32,7 +32,7 @@ function Welcome(props) {
           />
         </Box>
         <Box
-          textAlign={{ base: "center", md: "left" }}
+          textAlign={{ base: "center", fld: "left" }}
           ml={{ base: "0px", fld: "20px" }}
         >
           <Text fontSize={["16px", "16px", "initial"]} mt="20px" as="h3">
@@ -67,12 +67,12 @@ function Welcome(props) {
               {t("welcome")}
             </Text>
           </Text>
-          <Text mx={{ base: "auto", md: "0" }} maxW="576px" my="24px">
+          <Text mx={{ base: "auto", fld: "0" }} maxW="576px" my="24px">
             {t("summary")}
           </Text>
           <Flex
             flexFlow={{base:"column", "2sm":"row"}}
-            justifyContent={["center", "center", "flex-start"]}
+            justifyContent={["center", "center","center", "flex-start"]}
           >
             <Button
               border="1px solid"

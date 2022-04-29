@@ -6,17 +6,16 @@ import {
   MenuButton,
   MenuItem,
   MenuList,
-  Text
+  Text,
 } from "@chakra-ui/react";
 import { FLAG_API, SUPPORTED_LANGUAGE } from "app_constants";
 import { useRouter } from "next/router";
 import React from "react";
 import { BsChevronDown } from "react-icons/bs";
 
-
 function PageLanguage(props) {
   const router = useRouter();
-  const { pathname, asPath, query, locale } = router;
+  const { locale } = router;
 
   const retrieveCacheLang = () => {
     const lang = locale || "en";
@@ -27,12 +26,13 @@ function PageLanguage(props) {
 
   const handleOnClick = (nextLocale) => {
     // change just the locale and maintain all other route information including href's query
+    const { pathname, asPath, query } = router;
     router.push({ pathname, query }, asPath, { locale: nextLocale });
   };
 
   return (
     <Flex
-      mb="20px"
+      mb="10px"
       alignItems={"center"}
       width="100%"
       justifyContent={"flex-end"}
@@ -70,7 +70,7 @@ function PageLanguage(props) {
                 onClick={() => handleOnClick(key)}
                 color="secondary"
                 key={lang.code}
-                bg={ key === locale ? "primary":"#fff"}
+                bg={key === locale ? "primary" : "#fff"}
               >
                 <Image
                   mr="10px"
