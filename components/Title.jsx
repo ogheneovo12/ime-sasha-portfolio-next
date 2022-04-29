@@ -5,7 +5,7 @@ function Title({ role, companyName, companyType }) {
   return (
     <Box>
       <Text as="h1">{role}</Text>
-      <Text as="h3">
+      <Text textTransform={"uppercase"} as="h3">
         <Text color="#FEE250" as="span">
           {companyName},
         </Text>{" "}

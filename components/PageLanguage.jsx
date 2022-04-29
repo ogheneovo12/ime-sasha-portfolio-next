@@ -25,9 +25,10 @@ function PageLanguage(props) {
   const pickedLang = SUPPORTED_LANGUAGE[retrieveCacheLang()];
 
   const handleOnClick = (nextLocale) => {
+     const hash = window ? window?.location.hash : asPath;
     // change just the locale and maintain all other route information including href's query
     const { pathname, asPath, query } = router;
-    router.push({ pathname, query }, asPath, { locale: nextLocale });
+    router.push({ pathname, query }, hash, { locale: nextLocale });
   };
 
   return (

@@ -13,14 +13,14 @@ export default extendTheme({
     fld: "960px",
   },
   fonts: {
-    body: "Work Sans, sans-serif",
-    heading: "Work Sans, serif",
-    mono: "Work Sans",
+    body: "Work Sans, Roboto, sans-serif",
+    heading: "Work Sans, Roboto, serif",
+    mono: "Work Sans, Roboto",
   },
   styles: {
     global: (props) => ({
       body: {
-        fontFamily: "Work Sans",
+        fontFamily: "Work Sans, Roboto",
         fontWeight: "300",
         fontSize: "14px",
         color: "white",

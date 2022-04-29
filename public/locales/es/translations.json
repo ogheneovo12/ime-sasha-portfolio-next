@@ -7,10 +7,22 @@
     "intouch": "Mantengámonos en contacto",
     "joinWaves": "Únase a la comunidad",
     "join": "Entrar",
-    "managerInfo": "Invitamos a fundadores, desarrolladores, expertos a una gran comunidad para crear proyectos en la cadena de bloques Waves, una de las más productivas del mundo. Desde ideas hasta proyectos y financiación, todo se reúne en torno a la creciente comunidad de Waves Sump. Únete para hacer tu propio unicornio o participar en los proyectos y tecnologías más interesantes del futuro",
+    "managerInfo": {
+        "p1": "Invitamos a fundadores, desarrolladores, expertos a una gran comunidad para crear proyectos en la cadena de bloques Waves, una de las más productivas del mundo. Desde ideas hasta proyectos y financiación, todo se reúne en torno a la creciente comunidad de Waves Sump. Únete para hacer tu propio unicornio o participar en los proyectos y tecnologías más interesantes del futuro",
+        "title": "",
+        "subtitle": {
+            "name": "",
+            "desc": ""
+        }
+    },
     "ctoInfo": {
         "p1": "Waves Tech es una empresa que desarrolla productos de infraestructura para el ecosistema Waves.",
-        "p2": "Con más de 15 años de experiencia en la creación y promoción de productos, siempre me mantengo fiel a los usuarios y su opinión sobre la conveniencia y simplicidad de los servicios que creo."
+        "p2": "Con más de 15 años de experiencia en la creación y promoción de productos, siempre me mantengo fiel a los usuarios y su opinión sobre la conveniencia y simplicidad de los servicios que creo.",
+        "title": "",
+        "subtitle": {
+            "name": "",
+            "desc": ""
+        }
     },
     "socials": {
         "main": "Mantengámonos en contacto",
@@ -49,5 +61,18 @@
             "image_src": ""
         },
         "keywords": "sasha borisov blockchain crypto inversor empresario defi metaversee ntf gamefi desarrollo de software"
+    },
+    "mata": {
+        "og": {
+            "image": ""
+        }
+    },
+    "myprojectInfo": {
+        "p1": "",
+        "title": "",
+        "subtitle": {
+            "name": "",
+            "desc": ""
+        }
     }
 }

@@ -78,6 +78,7 @@ function StepperNav() {
   let swiper = useSwiper();
   swiper.on("activeIndexChange", onSlideChange);
 
+
   return (
     <Flex
       py={{ base: "20px", fld: "0px" }}

@@ -102,7 +102,7 @@ const SocialBox = ({ text, icon, link, bg, btnText }) => (
     <Text lineHeight={"14px"} fontSize={"12px"} my="22px">
       {text}
     </Text>
-    <Button width="84.85px" h="28px" variant={"ghost"}>
+    <Button minWidth="84.85px" h="28px" variant={"ghost"}>
       {btnText}
     </Button>
   </Flex>

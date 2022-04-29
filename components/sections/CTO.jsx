@@ -7,9 +7,9 @@ function CTO(props) {
   const { t } = useTranslation("translations");
   return (
     <SectionLayout
-      role="Chief Technical Officer"
-      companyName={"WAVES TECH"}
-      companyType={"SOFTWARE COMPANY"}
+      role={t("ctoInfo.title")}
+      companyName={t("ctoInfo.subtitle.name")}
+      companyType={t("ctoInfo.subtitle.desc")}
     >
       <Text my="22px">{t("ctoInfo.p1")}</Text>
       <Text my="22px">{t("ctoInfo.p2")}</Text>
