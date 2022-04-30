@@ -68,7 +68,7 @@ export default extendTheme({
       baseStyle: {
         borderRadius: "20px",
         minHeight: "40px",
-        fontFamily: "Poppins",
+        fontFamily: "Poppins, Roboto",
         fontSize: "12px",
         fontWeight: "500",
         lineHeight: "15px",
